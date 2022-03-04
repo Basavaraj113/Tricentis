@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Login functionality for Demo_Web_Shop.",
+        "description": "",
+        "id": "tricentis-demo-web-shop;login-functionality-for-demo-web-shop.",
+        "after": [
+          {
+            "result": {
+              "duration": 119772300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Web_demo_Shop_test_steps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7932760900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to LoginPage",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.user_navigates_to_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1661433200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter Username and Password",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.I_enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login should be successful",
+            "match": {
+              "location": "Web_demo_Shop_test_steps.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@LoginPass"
+          }
+        ]
+      }
+    ],
+    "name": "Tricentis Demo Web Shop",
+    "description": "",
+    "id": "tricentis-demo-web-shop",
+    "keyword": "Feature",
+    "uri": "feature/tricentis.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
